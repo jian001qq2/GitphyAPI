@@ -12,4 +12,4 @@ General descriptions of the game
 show 10 statics, non-animated images with rating under each image that match the name of the button clicked. 
 4. when the user clicks one of the still images, the image will animate. If the user clicks the same image again, it will stop animation and appears as still.
 5. in the right side of the screen , there is a enter box that will allow user to add new animal name to the buttons list shown on top of the HTML page. And the new button will function the same way as the others.
-pur
+

@@ -91,9 +91,9 @@ $(document).ready(function () {
           animalImage.attr("data-still", stillUrl);
           animalImage.attr("data-animate", animateUrl);
           animalImage.attr("data-state", "still");
-          // Appending the paragraph and animalImage we created to the "gifDiv" div we created
-          gifDiv.append(message);
-          gifDiv.append(animalImage);
+          //get the paragraph and animalImage we created to the "gifDiv" div we created
+          gifDiv.prepend(message);
+          gifDiv.prepend(animalImage);
 
           // Prepending(so new images always start at the top ) the gifDiv to the "#gifs-show" div in the HTML
           $("#gifs-show").prepend(gifDiv);
@@ -123,10 +123,3 @@ $(document).ready(function () {
   // call the function to display the initlal buttons
   renderButtons();
 });
-// problems need to fix later
-
-/*1.  need to double check the code..
- be sure understand everypart and can redo this from scratch
-  (highly recommand to set time to do it from scratch several times when its working ok)
-2. need to remeber to set the width of p . look up and add class = w- (0-100)
-3. fixing the image and form postion */
