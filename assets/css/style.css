@@ -1,0 +1,24 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: whitesmoke;
+}
+/*make spaces between each text*/
+button,div,form, nput {
+    margin: 10px;
+}
+
+/*set background color of the button*/
+button.animal{
+    background: lightgreen;
+}
+/* float the images */
+.column{
+   float:left;
+}
+/*styling the coomponets in the form*/
+input#add-animal{
+background: lightgreen;
+}
+label{
+    font-weight: bold
+}
